@@ -6,6 +6,7 @@
 
 package org.tomeejsfear.test;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -16,7 +17,7 @@ import org.primefaces.context.RequestContext;
 //@javax.faces.bean.ViewScoped
 @javax.inject.Named("dfDialogView")
 @javax.faces.view.ViewScoped
-public class DialogView {
+public class DialogView implements Serializable{
          
     String createTime;
 

@@ -1,5 +1,6 @@
 package org.tomeejsfear.test;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -15,7 +16,7 @@ import org.primefaces.event.SelectEvent;
  
 @javax.inject.Named("dfView")
 @javax.faces.view.ViewScoped
-public class Dialogs {
+public class Dialogs implements Serializable{
     
     String createTime;
 
